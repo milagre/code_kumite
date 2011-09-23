@@ -7,7 +7,7 @@ You will need:
  PHP5
  PHPUnit
 
-Break the group up into pairs.
+Break the group up into pairs.  If there is an odd number of people, the moderator can be part of a pair.
 In each pair, one person will start as the Tester, and the other will start as the Implementor
 
 Step 1: Requirement
@@ -39,6 +39,8 @@ New tests may be added
 
 Step 6: Commit
 Commit your code
+At this point the moderator can pause the entire group and host a discussion about anything the
+pairs would like to discuss.
 Return to Step 1
 
 Conclusion:
@@ -50,7 +52,7 @@ Rotate testers through other groups, so everyone has a new partner, switch roles
 Requirements:
 
  * Create a new game. Score should be -1
- * Roll an incomplete game.  Score should return -1
+ * Roll an incomplete game.  Score should be -1
  * Roll a gutter game. Score should be 0
  * Roll all 1s. Score should be 20
  * Roll all 0s except a single spare and an additional ball. Score should be 10 + additional ball
