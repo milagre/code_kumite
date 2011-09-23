@@ -37,5 +37,22 @@ Each pair should repeat steps 2-4 until they have fully implemented the requirem
 Existing tests may be altered if they are not useful
 New tests may be added
 
-Step 6: Return to Step 1
+Step 6: Commit
+Commit your code
+Return to Step 1
+
+
+
+
+
+
+Requirements:
+
+ * Create a new game. Score should be 0
+ * Roll 1 ball for <10 pins. Score should equal pin count.
+ * Roll 20 balls for 0.  Score should equal 0.
+ * Roll 10 frames with no strikes or spares. Score should equal sum of all pins
+ * Roll a single spare and an additional ball. Score should be 10 + additional ball
+ * Roll a single stike and an additional two balls. Score should be 10 + additional two balls
+ * Roll a perfect game of 12 strikes. Score should be 300
 
