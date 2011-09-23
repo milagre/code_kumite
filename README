@@ -11,8 +11,8 @@ Break the group up into pairs.
 In each pair, one person will start as the Tester, and the other will start as the Implementor
 
 Step 1: Requirement
-Moderator: Provide each pair with the first requirement
-No talking is allowed until step 4
+Moderator: Provide the Tester only in each pair with the next requirement
+No talking is allowed between pairs until step 4
 
 Step 2: Red
 Tester: Write a single unit test for that requirement
@@ -41,18 +41,19 @@ Step 6: Commit
 Commit your code
 Return to Step 1
 
-
-
+Conclusion:
+Reflect on the evolution of the tests and implementation
+Rotate testers through other groups, so everyone has a new partner, switch roles, and repeat
 
 
 
 Requirements:
 
- * Create a new game. Score should be 0
- * Roll 1 ball for <10 pins. Score should equal pin count.
- * Roll 20 balls for 0.  Score should equal 0.
- * Roll 10 frames with no strikes or spares. Score should equal sum of all pins
- * Roll a single spare and an additional ball. Score should be 10 + additional ball
- * Roll a single stike and an additional two balls. Score should be 10 + additional two balls
+ * Create a new game. Score should be -1
+ * Roll an incomplete game.  Score should return -1
+ * Roll a gutter game. Score should be 0
+ * Roll all 1s. Score should be 20
+ * Roll all 0s except a single spare and an additional ball. Score should be 10 + additional ball
+ * Roll all 0s except a single stike and an additional two balls. Score should be 10 + additional two balls
  * Roll a perfect game of 12 strikes. Score should be 300
 
