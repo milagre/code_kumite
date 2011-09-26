@@ -12,7 +12,8 @@ In each pair, one person will start as the Tester, and the other will start as t
 
 Step 1: Requirement
 Moderator: Provide the Tester only in each pair with the next requirement
-No talking is allowed between pairs until step 4
+Try to minimize talking within the pairs until step 4.  But please talk as much is as needed to get
+ over implementation hurdles when someone gets stuck
 
 Step 2: Red
 Tester: Write a single unit test for that requirement
@@ -24,6 +25,10 @@ Step 3: Green
 Implementor: Make the test pass
  * Write as little code as possible - no more than the test demands
  * Do it as quickly as possible - your top priority is to return the build to green
+If the implementation takes longer than 5 minutes:
+ * Revert the test
+ * Refactor the implementation to pass all previous tests with a focus on enabling the
+   implementation of the next test
 
 Step 4: Refactor
 At this point, the members of each pair may smeak to each other
@@ -31,6 +36,7 @@ Discuss potential refactorings
 Implement refactorings together
 Ensure the build does not go red
 Do NOT change the scope of any test at this time
+No implementation or test function should be over 5-10 lines of code
 
 Step 5: Repeat
 Each pair should repeat steps 2-4 until they have fully implemented the requirement provided
@@ -51,11 +57,12 @@ Rotate testers through other groups, so everyone has a new partner, switch roles
 
 Requirements:
 
- * Create a new game. Score should be -1
- * Roll an incomplete game.  Score should be -1
  * Roll a gutter game. Score should be 0
  * Roll all 1s. Score should be 20
- * Roll all 0s except a single spare and an additional ball. Score should be 10 + additional ball
- * Roll all 0s except a single stike and an additional two balls. Score should be 10 + additional two balls
+ * Roll all a spare on the first frame, then one more ball, then all 0s. Score should be 10 plus two
+    times the additional ball
+ * Roll all a strike on the first frame, then two more balls (not a spare), then all 0s.  Score
+    should be 10 plus two times the next two balls
  * Roll a perfect game of 12 strikes. Score should be 300
+ * Roll a near-perfect game of 11 strikes and a 9. Score should be 298
 
