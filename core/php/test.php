@@ -1,5 +1,9 @@
 <?php
-define('PROJECT_ROOT', dirname(__FILE__) . '/');
+
+if (!defined('PROJECT_ROOT')) {
+    die("Please define PROJECT_ROOT in each kumite\n" . 
+       "(i.e. define('PROJECT_ROOT', dirname(__FILE__) . '/');)");
+}
 
 function my_autoload($classname) {
     if (substr($classname, 0, 4) === 'Test') {
