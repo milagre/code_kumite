@@ -1,7 +1,7 @@
 Code Kumite
 =================
 
-A Kumite is to a Kata as Programming is to Pair Programming.
+A Kata is to a Kumite as Programming is to Pair Programming.
 
 The idea behind a Code Kumite is to combine pair programming and test driven development into
 pair-tdd.  The idea came to me while working with someone and teaching him good tdd practices.  I
