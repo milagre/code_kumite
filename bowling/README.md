@@ -46,5 +46,5 @@ implementations might fail one or more.
 | Requirement | Suggested Test Case |
 |-------------|---------------------|
 | Near-perfect game is 299 | Roll 11 strikes, then a 9. Cry because you almost had it|
-| Score 200 | Roll alternating strikes then spares starting with a strike |
+| Dutch-200 | Roll alternating strikes then spares starting with a spare |
 
