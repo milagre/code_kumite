@@ -18,6 +18,7 @@ produced better tests *and* better code.
 Preparation
 -----------
 You will need:
+
 * A group of people (even number is better)
 * A moderator
 * PHP5
@@ -49,20 +50,25 @@ Moderator: Provide each group with the next case
 
 ### Step 2: Red
 Tester's Turn: Write a single unit test
+
 * Focus on FIRST
 * Focus on AAA
 * Make your test as descriptive as possible
 
 ### Step 3: Green
 Implementor's Turn: Make the test pass
+
 * Write as little code as possible - no more than the test demands
 * Do it as quickly as possible - your top priority is to return the build to green
+
 If the implementation is not obvious:
+
 * Revert the test (commenting out is fine)
 * Refactor the implementation to pass all previous tests with a focus on enabling the
   implementation of the next test
 
 ### Step 4: Refactor
+
 * Do NOT change the scope of any test or the implementation at this time, though you may change
   the test in order to make sure it's testing what you wanted
 * At this point, the members of each pair may speak to each other freely
@@ -76,6 +82,7 @@ If the implementation is not obvious:
 
 ### Step 5: Repeat
 Each pair should repeat steps 2-4 until they have fully implemented the requirement provided
+
 * Existing tests may be altered if they are not useful, or not testing what you wanted
 * New tests may be added
 
@@ -91,13 +98,15 @@ Return to Step 1 until all requirements have been met
 
 ### Conclusion:
 Reflect on the evolution of the tests and implementation:
+
 * How did the tests change how you coded?
 * Did you ever write more code than you needed?
 * Did you ever write less code than you needed?
+
 Rotate Testers through other groups, so everyone has a new partner, switch roles, and repeat, so
 that everyone has a chance to be the Tester and the Implementor
 
-== Requirements / Test Cases ==
+### Requirements / Test Cases
 
 | Requirement | Suggested Test Case |
 |-------------|---------------------|
