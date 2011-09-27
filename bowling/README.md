@@ -9,6 +9,7 @@ What is Bowling?
 ---------------
 From [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Ten-pin_bowling)
 Bowling (or ten-pin bowling) is
+
 > a competitive sport in which a player (the "bowler") rolls a bowling ball down a wooden or
 > synthetic (polyurethane) lane with the objective of scoring points by knocking down as many pins
 > as possible.
